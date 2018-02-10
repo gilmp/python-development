@@ -13,7 +13,7 @@ strings.append("hello")
 strings.append("world")
 
 second_name = name[1]
-
+print(second_name)
 # this code should write out the filled arrays and the second name in the names list (Eric).
 
 print(numbers)
