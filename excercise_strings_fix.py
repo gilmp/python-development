@@ -1,5 +1,9 @@
 #!/usr/bin/env python
 
+########################################################
+# THIS IS ABOUT STRING FORMATTING AND STRING FUNCTIONS #
+########################################################
+
 s = "Strings are awesome!"
 # Length should be 20
 print("Length of s = %d" % len(s))
