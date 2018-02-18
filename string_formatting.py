@@ -1,5 +1,10 @@
 #/usr/bin/env python
 
+########################################################
+# THIS IS ABOUT STRING FORMATTING WITH LISTS OF STRING #
+# ... but kinda looks half finished                    #
+########################################################
+
 name = "John"
 print("Hello, %s!" % name)
 
