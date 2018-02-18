@@ -29,6 +29,8 @@ print("A list: %s" % mylist)
 
 #%x/%X - Integers in hex representation (lowercase/uppercase)
 
+#Defining You Current Balance is $ Unsure why this is used ? 
+
 #Excerise:
 
 data = ("John", "Doe", 53.44)
