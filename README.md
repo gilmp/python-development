@@ -11,13 +11,13 @@
 ######################################################################
 - Structure 
 
-python-float	
-python-hello-world
-python-if-statements
-python-int	
-python-lists-array
-python-maths	
-python-strings
+~ python-float	
+~ python-hello-world
+~ python-if-statements
+~ python-int	
+~ python-lists-array
+~ python-maths	
+~ python-strings
 
 #####################################################################
 
