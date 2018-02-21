@@ -1,8 +1,5 @@
 #!/usr/bin/env python
 
-
-# Using these value inside an list, and an variable the following must equal to true for all if statements.
-# change this code
 number = 18
 second_number = 0
 first_array = [1,2,3]
@@ -12,22 +9,26 @@ second_array = [1,2]
 if number > 15:
     print("1")
 
-
-# If the first_array has the number 2 print 2 
+# If the first_array has ANY value (ie, it is not empty) print 2 
 if first_array:
     print("2")
 
-# if the len method of the second array is counts 2 values in the arrary then print 3
+# Using the len function, if no. of items in list is equal to 2, print 3
 if len(second_array) == 2:
     print("3")
 
-# if the len operator is 123 and second array is 1,2 added together to equal 5 print 4
+# If the added no-of-items in the first and second lists are equal to 5, print 4
 if len(first_array) + len(second_array) == 5:
     print("4")
 
-# if the first array and first array is index is equal to 0 it should equal to 1 in the array
+# If the first array IS NOT EMPTY and the first value (0th) in first_array is equal to 1, print 5
 if first_array and first_array[0] == 1:
     print("5")
-# if the second number is not ( unsure of this one
+
+# The NOT operator flips the boolean value over
+# second_number is set to 0, and python can treat 0 as False boolean and anything >0 or <0 as True (which is horrible)
+# "if 0:" would result as False BUT because of the not, it flips the False into a True
+# print 6
 if not second_number:
     print("6")
+
