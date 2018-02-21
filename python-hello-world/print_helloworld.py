@@ -1,4 +1,5 @@
 #!/usr/bin/env python
 
-# By defineing the print method you can print a literal string
+# Using the print() function to print out a string literal
 print("Hello, World!.")
+

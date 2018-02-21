@@ -1,9 +1,10 @@
 #!/usr/bin/env python
 
-### This is defining a variable which equals to a Float which is and Decimal number ###
+# Defining a variable of type float (decimal value)
 myfloat = 7.0
 print(myfloat)
 
-### This is a variable defining a method float ###
+# Defining a float using the float function
 myfloat = float(7)
 print(myfloat)
+
