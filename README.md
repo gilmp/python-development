@@ -3,7 +3,7 @@ ___
 # Python-Development
 ___
 
-The python development is designed to enhance programing skills for indivuals with lack of programing knowledge.
+The python development is designed to enhance programing skills for individuals with lack of programing knowledge.
 
 ##  Python References 
 ___
