@@ -10,11 +10,18 @@ numbers = [
     743, 527
 ]
 
-for even in numbers:
-if even == 237:
-   break
+for number in numbers:
+  if number == 237:
+    break
 
-if even % 2 == 1:
-   continue
+  if number % 2 == 0:
+    print(number)
+    continue
 
-print(number)
+print("\n\nmore shit\n\n")
+
+
+for number in numbers: 
+  if number % 2 == 1 and number < 237:
+    print(number)
+
