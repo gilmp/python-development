@@ -1,10 +1,19 @@
 #!/usr/bin/env python
 
 # the gather info function is passing a list of args Height, weight and units and return the values.
+
+heightvalues = ['inches', 'meters']
+weightvalues = ['pounds', 'kilograms']
+
 def gather_info():
-    height = float (raw_input("what is your Height? (inches or meters) "))
-    weight = float (raw_input("what is your Weight? (pounds or kilograms) "))
     unit = raw_input("Are your measurements in metrics or imperial units? ").lower().strip()
+    if unit.startswith('i'):
+        index=0
+    else:
+        index=1
+
+    height = float (raw_input("what is your Height in %s ?" % heightvalues[index]))
+    weight = float (raw_input("what is your Weight in %s ?" % weightvalues[index]))
     return (height, weight, unit)
 
 # The calculate bmi functions is passing arguements and checking what letter is entered by the user the typed characher i or m,  will then do a calulation within the if statements. and print the bmi.  
