@@ -2,8 +2,8 @@
 
 number = 18
 second_number = 0
-first_array = [1,2,3]
-second_array = [1,2]
+first_array = [1, 2, 3]
+second_array = [1, 2]
 
 # If number which is 18 is greater than 15 print out 1
 if number > 15:

@@ -9,7 +9,7 @@ s = "Strings are awesome!"
 print("Length of s = %d" % len(s))
 
 # First occurrence of "a" should be at index 8
-print("The first occurrence of the letter a = %d" % s.index("a"))
+print("The first occurrence of the letter a = {:d}".format(s.index("a")))
 
 # Number of a's should be 2
 print("a occurs %d times" % s.count("a"))

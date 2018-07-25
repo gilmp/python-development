@@ -16,3 +16,6 @@ for x in even_numbers:
     odd_numbers.append(x)
 print(len(odd_numbers))
 
+
+
+for y in even_numbers and odd_numbers:

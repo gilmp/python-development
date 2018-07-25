@@ -20,3 +20,16 @@ else:
 
 
 
+x = 10
+if x == 5:
+     print("x equals 10")
+else:
+     print(" x does not equal to 5")
+
+y = 25
+if y == 20:
+     print("y is = to 20")
+elif y == 25:
+     print(" y is = to 25")
+else:
+    print(" y is not 25 or 20")

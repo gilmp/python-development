@@ -19,3 +19,17 @@ print(second_name)
 print(numbers)
 print(strings)
 print("The second name on the names list is %s" % second_name)
+
+
+
+json = []
+json_two = ['HELP']
+application = []
+message = ["Active", "Failure"]
+
+json.append("help")
+application.append("Hey active")
+message_two = message[1]
+print(message_two)
+print(application)
+print("the second message is on the index stated as %s" % message_two)

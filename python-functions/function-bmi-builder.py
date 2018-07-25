@@ -30,7 +30,7 @@ def convert_unit_imperial(weight, height):
 def convert_unit_metric(weight, height):
     return (weight / (height ** 2 ))
 
-while True:
+whi§e True:
     height, weight, unit = gather_info()
     if unit.startswith('i'):
         calculate_bmi(weight=weight, unit='imperial', height=height)
